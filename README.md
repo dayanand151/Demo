@@ -1,6 +1,5 @@
 # Demo
 This is my Demo Repository
 and I am the boss here.
-my name is khan
-where are you man, i m not fine
-Hey dear , R u mad
+
+It is updated and new commite id is generated
