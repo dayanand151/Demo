@@ -28,9 +28,9 @@
 <id>test</id>
  <build>
         <plugins>
+			<plugin>
 
-
-<groupId>org.jacoco</groupId>
+				<groupId>org.jacoco</groupId>
 				<artifactId>jacoco-maven-plugin</artifactId>
 				<version>0.7.5.201505241946</version>
 				<executions>
@@ -68,6 +68,7 @@
 						<jacoco-agent.destfile>target/jacoco.exec</jacoco-agent.destfile>
 					</systemPropertyVariables>
 				</configuration>
+				</plugin>
             <plugin>
                 <groupId>org.wildfly.plugins</groupId>
                 <artifactId>wildfly-maven-plugin</artifactId>
